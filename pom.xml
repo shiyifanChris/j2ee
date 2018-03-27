@@ -11,8 +11,8 @@
         <module>chapter1</module>
         <module>chapter2</module>
         <module>smartframework</module>
-        <module>jvm</module>
         <module>jvmtest</module>
+        <module>sort</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -21,6 +21,13 @@
         <project.encoding>UTF-8</project.encoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>1.5.6.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 
 
